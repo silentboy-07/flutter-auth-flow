@@ -1,16 +1,57 @@
-# signup_flow_app
+# 🚀 Flutter Authentication Flow App
 
-A new Flutter project.
+A **clean, scalable Flutter authentication system** built using **MVVM architecture**, featuring **Google Sign-In, real-time form validation, and premium UI/UX**. Fully **cross-platform (Android & iOS)**.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## ✨ Features
 
-A few resources to get you started if this is your first Flutter project:
+* Google Sign-In (OAuth 2.0)
+* Manual Signup with Real-time Validation
+* Swipe-to-confirm interaction
+* Smooth animations & responsive UI
+* MVVM + Clean Architecture
+* Android & iOS support
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🧠 Architecture
+
+**MVVM (Model–View–ViewModel) + Clean Layered Structure**
+
+```
+lib/
+ ├── models/
+ ├── screens/
+ ├── services/
+ ├── widgets/
+ ├── utils/
+```
+
+---
+
+## 🛠 Tech Stack
+
+Flutter • Dart • MVVM • Google Sign-In • Material UI
+
+---
+
+## 🚀 Run Locally
+
+```bash
+git clone https://github.com/silentboy-07/flutter-auth-flow.git
+cd flutter-auth-flow
+flutter pub get
+flutter run
+```
+
+---
+
+## 👨‍💻 Author
+
+**Vikas Singh**
+Flutter Developer
+
+---
+
+⭐ If you like this project, give it a star!
