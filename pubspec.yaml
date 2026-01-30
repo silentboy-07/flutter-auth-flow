@@ -1,0 +1,40 @@
+name: signup_flow_app
+description: A Flutter signup flow with Google and Manual signup options
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Google Sign In
+  google_sign_in: ^6.1.5
+
+  # For date picker
+  intl: ^0.18.1
+
+  # Optional: For better UI components
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+
+  # Add assets configuration here
+  assets:
+    - assets/images/google_logo.webp
+
+  # Optionally add fonts
+  # fonts:
+  #   - family: Poppins
+  #     fonts:
+  #       - asset: fonts/Poppins-Regular.ttf
+  #       - asset: fonts/Poppins-Bold.ttf
+  #         weight: 700
