@@ -138,12 +138,12 @@ class _ManualSignupScreenState extends State<ManualSignupScreen> {
                       icon: Container(
                         padding: const EdgeInsets.all(8),
                         decoration: BoxDecoration(
-                          // ignore: deprecated_member_use
+                         
                           color: AppColors.white.withOpacity(0.9),
                           borderRadius: BorderRadius.circular(12),
                           boxShadow: [
                             BoxShadow(
-                              // ignore: deprecated_member_use
+                             
                               color: AppColors.mediumCyan.withOpacity(0.2),
                               blurRadius: 10,
                             ),
@@ -217,7 +217,7 @@ class _ManualSignupScreenState extends State<ManualSignupScreen> {
                               ),
                               boxShadow: [
                                 BoxShadow(
-                                  // ignore: deprecated_member_use
+                                 
                                   color: AppColors.mediumCyan.withOpacity(0.1),
                                   blurRadius: 10,
                                   offset: const Offset(0, 4),
@@ -298,7 +298,6 @@ class _ManualSignupScreenState extends State<ManualSignupScreen> {
                             ),
                             boxShadow: [
                               BoxShadow(
-                                // ignore: deprecated_member_use
                                 color: AppColors.mediumCyan.withOpacity(0.1),
                                 blurRadius: 10,
                                 offset: const Offset(0, 4),
@@ -421,7 +420,6 @@ class _ManualSignupScreenState extends State<ManualSignupScreen> {
         borderRadius: BorderRadius.circular(16),
         boxShadow: [
           BoxShadow(
-            // ignore: deprecated_member_use
             color: AppColors.mediumCyan.withOpacity(0.1),
             blurRadius: 10,
             offset: const Offset(0, 4),
