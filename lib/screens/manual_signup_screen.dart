@@ -406,7 +406,6 @@ class _ManualSignupScreenState extends State<ManualSignupScreen> {
       ),
     );
   }
-
   Widget _buildTextField({
     required TextEditingController controller,
     required String label,
