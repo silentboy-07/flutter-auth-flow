@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
 class AppColors {
-  // Your new cyan theme colors
+
   static const veryLightCyan = Color(0xFFE0F7FA);
   static const lightCyan = Color(0xFFB2EBF2);
   static const mediumCyan = Color(0xFF80DEEA);
 
-  // Additional complementary colors
-  static const primaryColor = Color(0xFF00ACC1); // Darker cyan for buttons
+
+  static const primaryColor = Color(0xFF00ACC1); 
   static const darkCyan = Color(0xFF00838F);
   static const white = Colors.white;
   static const textDark = Color(0xFF263238);
