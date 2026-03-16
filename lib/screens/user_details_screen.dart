@@ -67,7 +67,6 @@ class UserDetailsScreen extends StatelessWidget {
                           borderRadius: BorderRadius.circular(24),
                           boxShadow: [
                             BoxShadow(
-                              // ignore: deprecated_member_use
                               color: AppColors.mediumCyan.withOpacity(0.2),
                               blurRadius: 20,
                               offset: const Offset(0, 10),
@@ -135,7 +134,6 @@ class UserDetailsScreen extends StatelessWidget {
                             ),
                             const SizedBox(height: 16),
 
-                            // Name
                             Text(
                               user.fullName,
                               style: const TextStyle(
@@ -201,7 +199,6 @@ class UserDetailsScreen extends StatelessWidget {
                           borderRadius: BorderRadius.circular(24),
                           boxShadow: [
                             BoxShadow(
-                              // ignore: deprecated_member_use
                               color: AppColors.mediumCyan.withOpacity(0.2),
                               blurRadius: 20,
                               offset: const Offset(0, 10),
@@ -237,14 +234,12 @@ class UserDetailsScreen extends StatelessWidget {
                             ),
                             const SizedBox(height: 20),
 
-                            // Email
                             _buildDetailItem(
                               icon: Icons.email_outlined,
                               label: 'Email',
                               value: user.email,
                             ),
 
-                            // Username
                             if (user.username != null)
                               _buildDetailItem(
                                 icon: Icons.alternate_email,
@@ -252,7 +247,6 @@ class UserDetailsScreen extends StatelessWidget {
                                 value: user.username!,
                               ),
 
-                            // Date of Birth
                             if (user.dateOfBirth != null)
                               _buildDetailItem(
                                 icon: Icons.cake_outlined,
@@ -261,7 +255,6 @@ class UserDetailsScreen extends StatelessWidget {
                                     .format(user.dateOfBirth!),
                               ),
 
-                            // Gender
                             if (user.gender != null)
                               _buildDetailItem(
                                 icon: Icons.people_outline,
@@ -400,7 +393,6 @@ class UserDetailsScreen extends StatelessWidget {
       margin: const EdgeInsets.only(bottom: 16),
       padding: const EdgeInsets.all(12),
       decoration: BoxDecoration(
-        // ignore: deprecated_member_use
         color: AppColors.veryLightCyan.withOpacity(0.5),
         borderRadius: BorderRadius.circular(12),
       ),
