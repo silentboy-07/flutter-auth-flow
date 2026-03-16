@@ -144,7 +144,6 @@ class UserDetailsScreen extends StatelessWidget {
                             ),
                             const SizedBox(height: 8),
 
-                            // Signup Type Badge
                             Container(
                               padding: const EdgeInsets.symmetric(
                                 horizontal: 16,
