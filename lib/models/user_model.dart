@@ -6,7 +6,7 @@ class UserModel {
   final String? gender;
   final String? instagramUsername;
   final String? youtubeChannelUsername;
-  final String signupType; // "Google" or "Manual"
+  final String signupType; 
   final String? profilePhotoUrl;
 
   UserModel({
