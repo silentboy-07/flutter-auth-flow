@@ -115,7 +115,6 @@ class _SignupSelectionScreenState extends State<SignupSelectionScreen>
                       shape: BoxShape.circle,
                       boxShadow: [
                         BoxShadow(
-                          // ignore: deprecated_member_use
                           color: AppColors.mediumCyan.withOpacity(0.3),
                           blurRadius: 30,
                           offset: const Offset(0, 10),
@@ -148,7 +147,6 @@ class _SignupSelectionScreenState extends State<SignupSelectionScreen>
                             letterSpacing: 1.2,
                             shadows: [
                               Shadow(
-                                // ignore: deprecated_member_use
                                 color: AppColors.mediumCyan.withOpacity(0.3),
                                 offset: const Offset(0, 4),
                                 blurRadius: 10,
@@ -178,7 +176,6 @@ class _SignupSelectionScreenState extends State<SignupSelectionScreen>
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.stretch,
                     children: [
-                      // Google Sign In Button with Local Logo
                       Container(
                         decoration: BoxDecoration(
                           gradient: const LinearGradient(
@@ -187,7 +184,6 @@ class _SignupSelectionScreenState extends State<SignupSelectionScreen>
                           borderRadius: BorderRadius.circular(16),
                           boxShadow: [
                             BoxShadow(
-                              // ignore: deprecated_member_use
                               color: AppColors.mediumCyan.withOpacity(0.3),
                               blurRadius: 20,
                               offset: const Offset(0, 10),
@@ -217,12 +213,10 @@ class _SignupSelectionScreenState extends State<SignupSelectionScreen>
                                       ),
                                     )
                                   else
-                                    // Using local asset image
                                     Image.asset(
                                       'assets/images/google_logo.webp',
                                       height: 24,
                                       width: 24,
-                                      // Add error handling in case image doesn't load
                                       errorBuilder:
                                           (context, error, stackTrace) {
                                         return const Icon(
@@ -264,7 +258,6 @@ class _SignupSelectionScreenState extends State<SignupSelectionScreen>
                           borderRadius: BorderRadius.circular(16),
                           boxShadow: [
                             BoxShadow(
-                              // ignore: deprecated_member_use
                               color: AppColors.primaryColor.withOpacity(0.3),
                               blurRadius: 20,
                               offset: const Offset(0, 10),
@@ -311,7 +304,6 @@ class _SignupSelectionScreenState extends State<SignupSelectionScreen>
                         textAlign: TextAlign.center,
                         style: TextStyle(
                           fontSize: 12,
-                          // ignore: deprecated_member_use
                           color: AppColors.textLight.withOpacity(0.8),
                         ),
                       ),
