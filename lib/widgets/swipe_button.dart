@@ -45,6 +45,7 @@ class _SwipeButtonState extends State<SwipeButton>
     ));
   }
 
+  
   @override
   void dispose() {
     _resetAnimationController.dispose();
