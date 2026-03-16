@@ -64,13 +64,13 @@ class _SwipeButtonState extends State<SwipeButton>
     if (!widget.enabled) return;
 
     if (_dragPosition >= _maxDragDistance * 0.9) {
-      // Complete the swipe
+     
       setState(() {
         _dragPosition = _maxDragDistance;
       });
       widget.onSwipeComplete();
     } else {
-      // Reset position
+   
       _resetAnimation = Tween<double>(
         begin: _dragPosition,
         end: 0,
@@ -109,7 +109,7 @@ class _SwipeButtonState extends State<SwipeButton>
           ),
           child: Stack(
             children: [
-              // Text
+            
               Center(
                 child: Text(
                   widget.text,
@@ -139,7 +139,6 @@ class _SwipeButtonState extends State<SwipeButton>
                       boxShadow: widget.enabled
                           ? [
                               BoxShadow(
-                                // ignore: deprecated_member_use
                                 color: Colors.black.withOpacity(0.2),
                                 blurRadius: 8,
                                 offset: const Offset(0, 2),
